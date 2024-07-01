@@ -34,6 +34,31 @@ LeetCode: Practice, Contest, Interview Prep -> সব একসাথে কর�
 Simple Tips: আমি কোডের মধ্যে ভুল সিলেক্ট করার সময় কোড উপর থেকে নিচে, এভাবে না পড়ে উল্টোভাবে পড়ে Debugging করি। (সবার ক্ষেত্রে প্রযোজ্য নাও হতে পারে)
 
 
+# Understanding the error codes:
+1. Compilation Error (CE): Your program didn't get compiled successfully.
+Common reasons like Syntax Error, Missing Imports, Using restricted functionalities.
+
+2. Wrong Answer (WA): Your program ran successfully but returned a different output.
+Common reasons like Incorrect interpretation of problem, Incorrect solution, Bug in the code, Edge cases(multiple test cases).
+
+3. Time Limit Exceeded (TLE): Your program didn't complete execution in the alloted time. Your program gets a predefined time limit for every test case.
+Common reasons like Solution isn't optimal, Infinite Loop.
+
+4. Memory Limit Exceeded (MLE): Your program tried to allocate more memory.
+Common reasons like Declaring large arrays/lists, Adding a lot of data, Stack Overflow Error.
+
+5.1. Runtime Error (SIGSEGV/Segmentation Fault): Your program tried to access or write to a memory that, it can't access or is invalid.
+Common reasons like Accessing array/string index outside its range, Using too much memory in some languages, Uninitialized/Incorrectly initialized pointers.
+
+5.2. Runtime Error (SIGFPE): Your program encountered a floating-point error. Generally caused if you do an invalid math operation.
+Common reasons like Division by zero, Square Root/Log of negative numbers.
+
+5.3. Runtime Error (SIGABRT): Your program aborted the program due to fatal error.
+Common reason like Using assert/abort in the code.
+
+5.4. Runtime Error (NZEC/Non-Zero Error Code): Your program didn't return a zero-error code from the main method & didn't fall into any of the above buckets.
+Common reasons like Not returning 0 from main method, Not catching exceptions.
+
 # Programming Contests:
 -> NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
 
