@@ -35,11 +35,15 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
 
 
 # DSA for Competitive Programming (CP):
+
 1. DSA Foundations: Time & Space Complexity Analysis, Recursion, Divide & Conquer.
     (Essential for understanding the efficiency & structure of algorithms)
+
 2. Basic DSA: Arrays, Stack, Queue, Binary Search, Sorting, Hashing, Two pointers, Backtracking.
+
 3. Intermediate DSA: String Manipulation, Bit Manipulation, Greedy, Set, Map (Hash Map, Tree Map), Heap (Priority Queue), Graph (DFS, BFS, Shortest Paths), Disjoint Set (Union-Find).
    (Crucial for solving more complex problems & optimizing solutions)
+
 4. Advanced DSA: DP, Game Theory, Tries, Segment Trees, Fenwick Trees (Binary Indexed Trees), Suffix Tree, Suffix Array, Heavy-Light Decomposition, Graph Coloring, Network Flow (Max Flow/Min Cut), Sqrt Decomposition.
 
 # Math for Coding/Competitive Programming (CP):
