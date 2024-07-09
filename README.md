@@ -34,6 +34,35 @@ LeetCode: Practice, Contest, Interview Prep -> সব একসাথে কর�
 Simple Tips: আমি কোডের মধ্যে ভুল সিলেক্ট করার সময় কোড উপর থেকে নিচে, এভাবে না পড়ে উল্টোভাবে পড়ে Debugging করি। (সবার ক্ষেত্রে প্রযোজ্য নাও হতে পারে)
 
 
+# DSA for Competitive Programming (CP):
+1. DSA Foundations: Time & Space Complexity Analysis, Recursion, Divide & Conquer.
+    (Essential for understanding the efficiency & structure of algorithms)
+2. Basic DSA: Arrays, Stack, Queue, Binary Search, Sorting, Hashing, Two pointers, Backtracking.
+3. Intermediate DSA: String Manipulation, Bit Manipulation, Greedy, Set, Map (Hash Map, Tree Map), Heap (Priority Queue), Graph (DFS, BFS, Shortest Paths), Disjoint Set (Union-Find).
+   (Crucial for solving more complex problems & optimizing solutions)
+4. Advanced DSA: DP, Game Theory, Tries, Segment Trees, Fenwick Trees (Binary Indexed Trees), Suffix Tree, Suffix Array, Heavy-Light Decomposition, Graph Coloring, Network Flow (Max Flow/Min Cut), Sqrt Decomposition.
+
+# Math for Coding/Competitive Programming (CP):
+
+1. Fundamentals: Binary Exponentiation, Euclidean Algorithm, Greatest Common Divisor (GCD), Least Common Multiple (LCM).
+
+2. Prime Numbers: Sieve of Eratosthenes, Prime Factorization, Miller-Rabin Primality Test.
+
+3. Number Theory: Euler's Totient Function, Fermat's Little Theorem, Wilson's Theorem. 
+
+4. Modular Arithmetic: Modulo Inverse, Chinese Remainder Theorem, Exponentiation by Squaring. 
+
+5. Linear Algebra: Matrix, Vectors, Eigenvalues, Eigenvectors.
+
+6. Geometry:
+    • Basic Geometry (Points, Lines, Circles),
+    • Computational Geometry (Convex Hull, Line Intersection),
+    • Coordinate Geometry.
+
+7. Combinatorics: Permutations, Combinations, Binomial Theorem, Pigeonhole Principle.
+
+8. Misc/Miscellaneous: Fast Fourier Transform (FFT), Polynomial Arithmetic, Random Number Generation.
+
 # Understanding the error codes:
 1. Compilation Error (CE): Your program didn't get compiled successfully.
 Common reasons like Syntax Error, Missing Imports, Using restricted functionalities.
