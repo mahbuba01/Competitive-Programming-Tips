@@ -92,6 +92,8 @@ Common reason like Using assert/abort in the code.
 5.4. Runtime Error (NZEC/Non-Zero Error Code): Your program didn't return a zero-error code from the main method & didn't fall into any of the above buckets.
 Common reasons like Not returning 0 from main method, Not catching exceptions.
 
+6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to a missing space, newline, or an extra space or newline.
+
 # Programming Contests:
 -> NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
 
