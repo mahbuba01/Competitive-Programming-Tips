@@ -92,7 +92,7 @@ Common reason like Using assert/abort in the code.
 5.4. Runtime Error (NZEC/Non-Zero Error Code): Your program didn't return a zero-error code from the main method & didn't fall into any of the above buckets.
 Common reasons like Not returning 0 from main method, Not catching exceptions.
 
-6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to a missing space, newline, or an extra space or newline.
+6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to "a missing space, newline, an extra space or newline."
 
 # Programming Contests:
 -> NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
@@ -102,7 +102,7 @@ Common reasons like Not returning 0 from main method, Not catching exceptions.
 Language (IOI)->
 • For the past sessions (till 2015): C, C++, Pascal.
 • But (Since 2017): C++, Java, Pascal. 
-3. NCPC, IUPC, ICPC Dhaka Regional > ICPC Asia West > ICPC World Final: Form a team of three members.
+3. NCPC, IUPC, ICPC Dhaka Regional > ICPC Asia West > ICPC World Final - You can't participate in the same year: in more than 2 teams and "at more than 2 regionals.(for Asia)"
 4. Meta Hacker Cup: Open to everyone, consists of three rounds: Qualification, Elimination, and Final.
 5. ACM ICFP: Virtual coding contest, any programming language can be used.
 6. NGPC: For female students in high school, college, and university. Rules similar to ICPC.
