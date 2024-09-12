@@ -94,6 +94,32 @@ Common reasons like Not returning 0 from main method, Not catching exceptions.
 
 6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to "a missing space, newline, an extra space or newline."
 
+# Newbie to Candidate Master (CM): Ratings [0-1900]
+Topics:
+1. Brute Force, Searching.
+2. Sorting (Language Library Function)
+3. Strings
+4. Number Theory like Floor, Ceil, Modulo, Divisors, Factorization.
+5. Time Complexity 
+6. STL (Language Library)
+7. Binary Search
+8. Two Pointers
+9. Binary + Bitwise Stuff
+10. DP
+11. Combinatorics 
+12. Prefix Sums (Basic Range Queries)
+13. Modular Arithmetic, GCD/LCM, Prime Factor Rep.
+14. Recursion
+15. Graphs, Trees
+16. DSU/UFDS
+17. Segment Trees
+18. String Algorithms (Hashing)
+19. Proofs
+20. Constructive Algorithms
+21. Combinatorial Techniques, Probability, Expected Value.
+22. Game Theory
+23. Advanced Graph Techniques like Shortest paths, MST.
+
 # Programming Contests:
 NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
 
