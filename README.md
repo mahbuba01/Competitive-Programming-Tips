@@ -94,6 +94,60 @@ Common reasons like Not returning 0 from main method, Not catching exceptions.
 
 6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to "a missing space, newline, an extra space or newline."
 
+# Time Complexity 
+
+In problem-solving, TLE (Time Limit Exceeded) means the program took too long to run within the allotted time. To understand when and where to use different types of algorithms, you need to understand the algorithm's time complexity. Time complexity is primarily about calculating how much time an algorithm takes to run, which helps compare multiple solutions to a problem.
+
+Here are some common Time Complexities:
+
+1. O(1): Constant Time Complexity
+
+The algorithm's runtime doesn't depend on the input size n, it always performs a constant number of operations.
+
+2. O(log n): Logarithmic Time Complexity
+
+The runtime grows logarithmically relative to the input size n, typical of algorithms that divide the problem size in half at each step. (like Binary Search)
+
+3. O(n): Linear Time Complexity
+
+The runtime increases linearly with the input size n, this's common in algorithms that iterate through each element of an array or list.
+
+4. O(n log n): Linearithmic Time Complexity
+
+The runtime grows in proportion to n multiplied by the logarithm of n, this's often seen in efficient sorting algorithms. (like Merge & Quick Sort)
+
+5. O(n^2): Quadratic Time Complexity
+
+The runtime is proportional to the square of the input size n, typical of algorithms with nested iterations over the input. (like Bubble, Selection & Insertion Sort)
+
+6. O(n^3): Cubic Time Complexity
+
+The runtime grows with the cube of the input size n, occurring when there're three nested loops iterating over the input.
+
+7. O(2^n): Exponential Time Complexity
+
+The runtime grows exponentially with the input size n, this's common in algorithms that solve problems by exploring all subsets or combinations. (like Brute-force)
+
+8. O(n!): Factorial Time Complexity
+
+The runtime grows factorial with the input size n, typically seen in algorithms that generate permutations or combinations of a set.
+
+9. O(sqrt(n)): Square Root Time Complexity
+
+This complexity occurs in algorithms where operations are performed up to the square root of the input size n, it's less common but can appear in certain mathematical algorithms or optimizations.
+
+How to calculate algorithms time complexity:
+
+1. Identify the basic operations performed by the algorithm.
+
+2. Count the number of times each operation is executed in terms of the input size n.
+
+3. Express this count as a mathematical function of n.
+
+4. Simplify the function to focus on the term with the largest growth rate.
+
+5. Use "Big O Notation" to describe the asymptotic upper bound of the algorithm's time complexity.
+
 # Newbie to Candidate Master (CM): Ratings [0-1900]
 Topics:
 1. Brute Force, Searching.
