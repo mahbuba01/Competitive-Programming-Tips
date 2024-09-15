@@ -94,7 +94,7 @@ Common reasons like Not returning 0 from main method, Not catching exceptions.
 
 6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to "a missing space, newline, an extra space or newline."
 
-# Time Complexity 
+# Time Complexity:
 
 In problem-solving, TLE (Time Limit Exceeded) means the program took too long to run within the allotted time. To understand when and where to use different types of algorithms, you need to understand the algorithm's time complexity. Time complexity is primarily about calculating how much time an algorithm takes to run, which helps compare multiple solutions to a problem.
 
@@ -135,6 +135,7 @@ The runtime grows factorial with the input size n, typically seen in algorithms 
 9. O(sqrt(n)): Square Root Time Complexity
 
 This complexity occurs in algorithms where operations are performed up to the square root of the input size n, it's less common but can appear in certain mathematical algorithms or optimizations.
+
 
 How to calculate algorithms time complexity:
 
