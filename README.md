@@ -96,8 +96,6 @@ Common reasons like Not returning 0 from main method, Not catching exceptions.
 
 # Time Complexity:
 
-![image alt](https://drive.google.com/file/d/1M_ScaBKU-ttme1cLxpF0YXPYhjAYzZEu/view?usp=drivesdk)
-
 In problem-solving, TLE (Time Limit Exceeded) means the program took too long to run within the allotted time. To understand when and where to use different types of algorithms, you need to understand the algorithm's time complexity. Time complexity is primarily about calculating how much time an algorithm takes to run, which helps compare multiple solutions to a problem.
 
 Here are some common Time Complexities:
