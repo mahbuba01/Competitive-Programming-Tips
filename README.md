@@ -67,6 +67,37 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
 
 8. Misc/Miscellaneous: Fast Fourier Transform (FFT), Polynomial Arithmetic, Random Number Generation.
 
+# Become good at solving math problems in CP
+
+1. Number Theory
+
+     • Binary Exponentiation
+     • Extended Euclidean Algorithm for GCD
+     • Sieve of Eratosthenes
+     • Modular Inverse (include both Fermat’s Little Theorem & Extended Euclidean Method)
+     • Euler’s Totient Function
+     • Number of Divisors / Sum of Divisors
+     • Mobius Function
+
+2. Combinatorics
+
+    • Binomial Coefficients
+    • Inclusion-Exclusion Principle
+    • Stars & Bars
+    • Lucas' Theorem (rare but useful)
+
+3. Geometry
+
+    • Basics (distance, angles, line equations, intersections)
+    • Line Sweep
+    • Convex Hull
+    • Misc. Geometry (e.g., polygon area, orientation, point in polygon, circle intersection etc.)
+
+4. Probability
+
+    • Basics
+    • Expected Values (1 & 2)
+
 # Understanding the error codes:
 1. Compilation Error (CE): Your program didn't get compiled successfully.
 Common reasons like Syntax Error, Missing Imports, Using restricted functionalities.
