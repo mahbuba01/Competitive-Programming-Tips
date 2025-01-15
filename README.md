@@ -222,3 +222,56 @@ Language (IOI)->
 Note:
 Google Code Jam, Hash Code, Kick Start, and TCO (Topcoder Open) contests are no longer held.
 
+#Extra: প্রোগ্রামিং এর কিছু Interesting জিনিস
+
+1. Turing Completeness: যেখানে একটি প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে সব কিছু Automate করা যায়। মানে একটি ল্যাংগুয়েজ দিয়ে সব ধরনের সমস্যা সমাধান করা যায় (solve any complex computation problem if provided with enough memory & time)
+
+2. Quine: Quine নিজের কোডকে আউটপুট হিসেবে Print করে এবং এই ধরনের কোড লেখা Challenging (takes no input & produces a copy of its own source code as its only output)
+
+3. Algo-Trading: স্টক মার্কেটের জন্য অ্যালগরিদম লিখে অটোমেটেড Trade করা হয়। এখানে কোড Real-Time Data নিয়ে জটিল সিদ্ধান্ত নিতে পারে, যা মানুষের চেয়ে অনেক Fast. (possible to make money with algo-trading)
+
+4. Sorting Algorithms Art: কিছু Sorting অ্যালগরিদম Like QuickSort, MergeSort কে একটি আর্টওয়ার্ক হিসেবে Visualize করা যেতে পারে। ভিজ্যুয়ালাইজেশনে অ্যালগরিদমের আচরণ কিভাবে Data Sort করে সেটা দেখা যাবে, Interesting না ব্যাপারটা ??
+
+5. Recursive Art: রিকার্সিভ ফাংশন ব্যবহার করেও Visual Art তৈরি করা যায়। Notable Example: Fractal Geometry(ফ্র্যাক্টাল জ্যামিতি); যেখানে লুপের মাধ্যমে একটি প্যাটার্ন বাড়াতে বাড়াতে জটিল স্ট্রাকচার তৈরি করা যায়।
+○ Base case: Simplest form of the problem that has a direct answer.
+○ Recursive case: The step where you break the problem into a smaller, self-similar task.
+
+6. Polyglot Programming: যেখানে একটি কোড একাধিক প্রোগ্রামিং ল্যাংগুয়েজে Run করতে পারে। (the same code can work properly in different languages)
+
+Example: একটি কোড এমনভাবে লেখা হতে পারে যা Python, JS, Ruby বা অন্যান্য ভাষায় একইভাবে Run হতে পারে। Interesting না ব্যাপারটা??
+★ But: Polyglot কোড create করা খুব কঠিন কারণ প্রতিটি ভাষার Syntax & Structure Maintain করতে হয়; যা সব ভাষায় একইভাবে Match হয় না। তাই একাধিক ভাষায় কোডটি Run করানোর জন্য Carefully কোড লিখতে হয়।
+
+7. Easter Eggs in Code: অনেক সফটওয়্যার বা কোডে ডেভেলপাররা ইচ্ছা করে কিছু Secret/Funny ফিচার, মেসেজ রেখে দেয়। এগুলো আসলে Surprise Plan!!
+
+Examples:
+
+7.1. Google এর "Do a Barrel Roll": গুগলে এটা লিখে সার্চ দিলে, সার্চ পেজটি 360 ডিগ্রি ঘুরে যায়।
+
+7.2. Chrome Dino Game: ইন্টারনেট কানেকশন না থাকলে একটি ডাইনোসর Game দেখা যায় যা Key Press করলে শুরু হয়।
+
+7.3. Excel 95 এর "Flight Simulator": এক্সেলের Old ভার্সনে Hidden Flight Simulator ছিল।
+
+(these're mainly added as fun elements to entertain users, spark curiosity & encourage them to explore the software further)
+
+8. Genetic Algorithms: এই অ্যালগরিদম "Evolution(প্রকৃতির বিবর্তন)" ধারণা থেকে অনুপ্রাণিত, যা "Survival of the Fittest" ধারণা ব্যবহার করে। যেখানে সমস্যা সমাধানের জন্য বিভিন্ন সম্ভাব্য-সমাধান তৈরি করা হয় এবং বেস্ট টা সিলেক্ট করা হয়। আর এভাবেই এই অ্যালগরিদম পর্যায়ক্রমে Better Solution খুঁজে বের করতে থাকে।
+
+9. Code Golf: কোডিং দক্ষতা এবং সৃজনশীলতার পরীক্ষা (প্রোগ্রামিং চ্যালেঞ্জ); যেখানে একটি নির্দিষ্ট কাজ করতে, সবচেয়ে কম কোড ব্যবহার করে কাজটি করার কৌশল খুঁজে বের করতে হয়।
+★ কোডের দৈর্ঘ্য যত কম হবে, তত বেশি স্কোর পাওয়া যায়।
+
+10. Esoteric Programming Languages: যা মজার উদ্দেশ্যে তৈরি করা হয়, কাজের জন্য নয়। এসব ভাষার কোড সাধারণত জটিল, অস্বাভাবিক এবং অদ্ভুতভাবে ডিজাইন করা হয়। এগুলো চ্যালেঞ্জ গ্রহণকারী ব্যক্তিদের জন্য তৈরি করা হয়।
+
+Examples:
+
+10.1. LOLCODE: কোড লেখার স্টাইল "meme" এর মতো; যেখানে কোড হাস্যকরভাবে লেখা হয়।
+
+10.2. Shakespeare: এই ভাষায় এমনভাবে কোড লেখা হয়; যেখানে প্রোগ্রামটি একটি নাটকের স্ক্রিপ্টের মতো দেখায়। কোডের সিনট্যাক্স এমনভাবে ডিজাইন করা হয় যে তা দেখতে অনেকটা শেক্সপিয়ারের নাটকের মতো মনে হয়।
+
+10.3. Piet: প্রোগ্রামিং ভাষা; যা ছবির মতো কোড লেখে, যেখানে প্রোগ্রামটি দৃশ্যমানভাবে একধরনের ছবির আকারে থাকে।
+
+11. Concurrency & Parallelism: প্রোগ্রামিংয়ে কনকারেন্সি এবং প্যারালেলিজম ব্যবহার করলে একসাথে অনেক কাজ করা যায়, যা সিস্টেমের কার্যক্ষমতা অনেক বাড়িয়ে দেয়।
+★ Concurrency's about "dealing with" lots of things at once.
+Parallelism's about "doing" lots of things at once.
+
+
+
+
