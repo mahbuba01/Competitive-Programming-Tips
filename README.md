@@ -222,7 +222,7 @@ Language (IOI)->
 Note:
 Google Code Jam, Hash Code, Kick Start, and TCO (Topcoder Open) contests are no longer held.
 
-#Extra: প্রোগ্রামিং এর কিছু Interesting জিনিস
+# Extra: প্রোগ্রামিং এর কিছু Interesting জিনিস
 
 1. Turing Completeness: যেখানে একটি প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে সব কিছু Automate করা যায়। মানে একটি ল্যাংগুয়েজ দিয়ে সব ধরনের সমস্যা সমাধান করা যায় (solve any complex computation problem if provided with enough memory & time)
 
