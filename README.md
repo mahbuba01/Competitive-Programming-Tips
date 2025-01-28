@@ -46,57 +46,56 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
 
 4. Advanced DSA: DP, Game Theory, Tries, Segment Trees, Fenwick Trees (Binary Indexed Trees), Suffix Tree, Suffix Array, Heavy-Light Decomposition, Graph Coloring, Network Flow (Max Flow/Min Cut), Sqrt Decomposition.
 
-# Math for Coding/Competitive Programming (CP):
+# Become good at solving math problems in CP (Math for CP)
 
-1. Fundamentals: Binary Exponentiation, Euclidean Algorithm, Greatest Common Divisor (GCD), Least Common Multiple (LCM).
+1. Fundamentals:  
+   - Binary Exponentiation  
+   - Euclidean Algorithm (GCD, LCM)  
 
-2. Prime Numbers: Sieve of Eratosthenes, Prime Factorization, Miller-Rabin Primality Test.
+2. Prime Numbers:
+   - Sieve of Eratosthenes  
+   - Prime Factorization  
+   - Miller-Rabin Primality Test  
 
-3. Number Theory: Euler's Totient Function, Fermat's Little Theorem, Wilson's Theorem. 
+3. Number Theory:  
+   - Euler's Totient Function  
+   - Fermat's Little Theorem  
+   - Wilson's Theorem  
+   - Modular Inverse (using Fermat’s Little Theorem & Extended Euclidean Algorithm)  
+   - Number of Divisors / Sum of Divisors  
+   - Mobius Function  
 
-4. Modular Arithmetic: Modulo Inverse, Chinese Remainder Theorem, Exponentiation by Squaring. 
+4. Modular Arithmetic: 
+   - Chinese Remainder Theorem  
+   - Exponentiation by Squaring  
 
-5. Linear Algebra: Matrix, Vectors, Eigenvalues, Eigenvectors.
+5. Linear Algebra: 
+   - Matrix Multiplication and Inversion  
+   - Vectors, Eigenvalues, and Eigenvectors  
 
 6. Geometry:
-    • Basic Geometry (Points, Lines, Circles),
-    • Computational Geometry (Convex Hull, Line Intersection),
-    • Coordinate Geometry.
+   - Basics: Points, Lines, Circles, Distance, Angles  
+   - Computational Geometry: Convex Hull, Line Intersection  
+   - Coordinate Geometry: Point-Line Relationship, Polygon Area, Point in Polygon
+   - Misc. Geometry: Orientation, Circle Intersection 
 
-7. Combinatorics: Permutations, Combinations, Binomial Theorem, Pigeonhole Principle.
+7. Combinatorics:  
+   - Permutations, Combinations  
+   - Binomial Theorem & Coefficients
+   - Pigeonhole Principle (used in distribution and arrangement problems)
+   - Stars & Bars  
+   - Inclusion-Exclusion Principle  
+   - Lucas' Theorem (rare but useful)  
 
-8. Misc/Miscellaneous: Fast Fourier Transform (FFT), Polynomial Arithmetic, Random Number Generation.
+8. Probability:  
+   - Basics  
+   - Expected Values (1D & 2D)  
 
-# Become good at solving math problems in CP
-
-1. Number Theory
-
-     • Binary Exponentiation
-     • Extended Euclidean Algorithm for GCD
-     • Sieve of Eratosthenes
-     • Modular Inverse (include both Fermat’s Little Theorem & Extended Euclidean Method)
-     • Euler’s Totient Function
-     • Number of Divisors / Sum of Divisors
-     • Mobius Function
-
-2. Combinatorics
-
-    • Binomial Coefficients
-    • Inclusion-Exclusion Principle
-    • Stars & Bars
-    • Lucas' Theorem (rare but useful)
-
-3. Geometry
-
-    • Basics (distance, angles, line equations, intersections)
-    • Line Sweep
-    • Convex Hull
-    • Misc. Geometry (e.g., polygon area, orientation, point in polygon, circle intersection etc.)
-
-4. Probability
-
-    • Basics
-    • Expected Values (1 & 2)
+9. Misc/Miscellaneous:  
+   - Fast Fourier Transform (FFT)  
+   - Polynomial Multiplication  
+   - Random Number Generation  
+   - Line Sweep
 
 # Understanding the error codes:
 1. Compilation Error (CE): Your program didn't get compiled successfully.
