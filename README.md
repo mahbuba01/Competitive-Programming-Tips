@@ -205,6 +205,55 @@ Topics:
 22. Game Theory
 23. Advanced Graph Techniques like Shortest paths, MST.
 
+# ডায়নামিক প্রোগ্রামিং: Bitmask DP 
+
+Suppose একটা প্রবলেমে ৫টা আইটেম দেয়া আছে, প্রত্যেকটার একটা Weight & Value আছে। কিছু আইটেম নেয়া যায় আবার কিছু বাদ দেয়া যায়। টার্গেট Total Weight ১০ এর নিচে রেখে Max Value বের করা। এটা অনেকটা ক্লাসিক Knapsack এর মতো শোনালেও, এখানে Twist হচ্ছে: কোন কোন আইটেম অলরেডি নেয়া হয়েছে সেটা Track করতে হবে। ক্লাসিক Knapsack এর O(N × W) এর তুলনায় এটা বেশি Complex কিন্তু Bitmask DP ছোট N এর জন্য বেশি Flexible.
+
+এখন এটা সলভ করতে গিয়ে প্রতিটা আইটেমের জন্য লুপ চালিয়ে একটা অ্যারে দিয়ে Track করা হলে কোডের টাইম কমপ্লেক্সিটি বেড়ে যাবে এবং Complex হয়ে যাবে। আর যদি আইটেমের সংখ্যা ২০ এর বেশি হয় তাহলে TLE খাওয়ার চান্স আছে, আর এখানেই Bitmask DP comes to the rescue!
+
+★ Bitmask DP কীভাবে কাজ করে??
+একটা Integer এর বিট ব্যবহার করে পুরো স্টেট রিপ্রেজেন্ট করা যায়। Suppose ৫টা আইটেম আছে, তাহলে একটা ৫ বিটের সংখ্যা দিয়ে ট্র্যাক করা যাবে যে কোনটা নেয়া হয়েছে আর কোনটা নেয়া হয়নি। Example:
+1. 00000 মানে কিছুই নেয়া হয়নি।  
+2. 10100 মানে ২ নং & ৪ নং আইটেম নেয়া হয়েছে।  
+3. 11111 মানে সবগুলো নেয়া হয়েছে।  
+
+এখন DP স্টেট হবে: dp[mask][weight] (2D অ্যারে ব্যবহার করলে), যেখানে mask হচ্ছে বর্তমানে কোন আইটেমগুলো নেয়া হয়েছে। Recursion দিয়ে এটা সলভ করা যাবে।  
+
+Suppose আইটেমগুলো:  
+Item 0: Weight 2, Value 3
+Item 1: Weight 3, Value 4
+Item 2: Weight 4, Value 5
+Item 3: Weight 1, Value 2
+Item 4: Weight 5, Value 6
+Here, Total Weight লিমিট ১০.
+
+এখানে dp[mask] দিয়ে Max Value স্টোর করা হবে। Bitmask DP তে সাধারণত dp[mask] (1D অ্যারে) ব্যবহার করা হয়, যদি weight ট্র্যাক করতে হয় তাহলে dp[mask][weight] ব্যবহার করতে হবে।
+  
+mask = 00001 (Item 0): Weight 2, Value 3
+mask = 00010 (Item 1): Weight 3, Value 4
+mask = 00100 (Item 2): Weight 4, Value 5
+mask = 01000 (Item 3): Weight 1, Value 2
+mask = 10000 (Item 4): Weight 5, Value 6
+mask = 00011 (Item 0 + Item 1): Weight (2+3)=5, Value (3+4)=7
+mask = 00101 (Item 0 + Item 2): Weight (2+4)=6, Value (3+5)=8
+mask = 01001 (Item 0 + Item 3): Weight (2+1)=3, Value (3+2)=5
+mask = 11001 (Item 0 + Item 1 + Item 4): Weight (2+3+5)=10, Value (3+4+6)=13
+mask = 01100 (Item 2 + Item 3): Weight (4+1)=5, Value (5+2)=7
+
+Here, Max Value 13 (যখন Item 0, 1 & 4 নেয়া হয়)
+
+কোডে এটা রিকার্সিভলি চেক করতে হবে প্রতিটা বিটের জন্য - কোনটা নেয়া হবে & কোনটা নেয়া হবে না। এটা করার জন্য Bitwise Operation ব্যবহার হয়। যেমন: কোনো আইটেম i নেয়া হয়েছে কিনা চেক করতে "mask & (1 << i)", যদি ০ হয় তাহলে ঐ আইটেম এখনো নেয়া হয়নি। নতুন আইটেম i যোগ করতে "mask | (1 << i)", এটা mask এ i তম বিটকে ১ করে দেয়।
+
+★ Complexity Analysis
+
+Bitmask DP তে N টি আইটেম থাকলে 2^N সংখ্যক subset (mask) সম্ভব।
+
+Total States: 2^N
+Each State Process Time: O(N)
+Total Complexity: O(N × 2^N) 
+
+যেহেতু, 2^20 approx 10^6 তাই N = 20 পর্যন্ত এটা Efficiently চলবে কিন্তু N > 25 হলে TLE খাওয়ার সম্ভাবনা বেশি! 
+
 # Programming Contests:
 NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
 
