@@ -1,19 +1,31 @@
 # Competitive Programming (CP): Tips for Improvement 
 
-Everyone faces problems in Competitive Programming, there's literally no one who doesn’t struggle! (সবাইকেই কম্পিটিটিভ প্রোগ্রামিংয়ে প্রবলেম ফেইস করতে হয়, এমন কেউ নেই যে এই প্রবলেমটা ফেইস করে না)
+Everyone faces problems in Competitive Programming, there's literally no one who doesn’t struggle! 
+
+(সবাইকেই কম্পিটিটিভ প্রোগ্রামিংয়ে প্রবলেম ফেইস করতে হয়, এমন কেউ নেই যে এই প্রবলেমটা ফেইস করে না)
 
 1. One common question everyone asks is: “How do I get better at CP?”
 
 **Practice! Practice! Practice!**
-The best way to improve in Competitive Programming is consistent practice. Try to solve at least 2–3 problems every day. If your current rating is “x”, then you should solve problems within the range **{x + 100 to x + 300}**. You must participate in regular contests. Even if your rating drops or becomes negative, you must continue. Revisit the problems you almost solved but couldn’t finish during the contest and try them again. Even if you get stuck for hours or days or even weeks, there’s nothing to be upset about; this happens to everyone. I once solved a hard problem after trying for **one whole month**! (একটা প্রশ্ন সবার-ই থাকে যে কিভাবে Cp তে ভালো করবো? → **Practice! Practice! Practice!** কম্পিটিটিভ প্রোগ্রামিংয়ে ভালো করার সর্বোত্তম উপায় নিয়মিত অনুশীলন করা। প্রতিদিন অন্তত ২-৩ টা সমস্যা সমাধান করার চেষ্টা করা উচিত। Current Ratings যদি "x" হয়, তাহলে {x+100 to x+300} Ratings এর প্রবলেমগুলো সলভ করা উচিত। রেগুলার কনটেস্ট গুলোতে অংশ নেয়া উচিত কিন্তু যদি রেটিংস বাজে আসে অথবা নেগেটিভ হয়ে যায় তাহলেও Continue করতে হবে এবং যে প্রবলেমগুলো একটুর জন্য সলভ হয় নি, সেগুলো আবারো Try করতে হবে। সলভ করতে গিয়ে ঘন্টার পর ঘন্টা অথবা দিনের পর দিন আটকে থাকলেও হতাশ হওয়ার কিছু নেই, এটা সবার ক্ষেত্রেই হয়। আমি নিজেও একবার একটা Hard Problem ১ মাস সময় নিয়ে সলভ করেছিলাম)
+The best way to improve in Competitive Programming is consistent practice. Try to solve at least 2–3 problems every day. 
+
+If your current rating is “x”, then you should solve problems within the range **{x + 100 to x + 300}**. 
+
+You must participate in regular contests. Even if your rating drops or becomes negative, you must continue. Revisit the problems you almost solved but couldn’t finish during the contest and try them again. Even if you get stuck for hours or days or even weeks, there’s nothing to be upset about; this happens to everyone. I once solved a hard problem after trying for **one whole month**!
+
+(একটা প্রশ্ন সবার-ই থাকে যে কিভাবে Cp তে ভালো করবো? → **Practice! Practice! Practice!** কম্পিটিটিভ প্রোগ্রামিংয়ে ভালো করার সর্বোত্তম উপায় নিয়মিত অনুশীলন করা। প্রতিদিন অন্তত ২-৩ টা সমস্যা সমাধান করার চেষ্টা করা উচিত। Current Ratings যদি "x" হয়, তাহলে {x+100 to x+300} Ratings এর প্রবলেমগুলো সলভ করা উচিত। রেগুলার কনটেস্ট গুলোতে অংশ নেয়া উচিত কিন্তু যদি রেটিংস বাজে আসে অথবা নেগেটিভ হয়ে যায় তাহলেও Continue করতে হবে এবং যে প্রবলেমগুলো একটুর জন্য সলভ হয় নি, সেগুলো আবারো Try করতে হবে। সলভ করতে গিয়ে ঘন্টার পর ঘন্টা অথবা দিনের পর দিন আটকে থাকলেও হতাশ হওয়ার কিছু নেই, এটা সবার ক্ষেত্রেই হয়। আমি নিজেও একবার একটা Hard Problem ১ মাস সময় নিয়ে সলভ করেছিলাম)
 
 2. Many people struggle to understand the problem statement. So what should you do if you can’t understand the problem?
    
-Since all problems are written in English, language difficulty can be a major reason. That’s why, in the beginning, you should build the habit of reading problem statements daily. It helps a lot. Even if it feels painful, be patient and keep doing it. (এমন অনেকেই আছে যারা প্রবলেমটাই বুঝতে পারে না, এখন প্রবলেম বুঝতে না পারলে কি করতে হবে? → প্রবলেমগুলো যেহেতু ইংলিশে থাকে তাই না বুঝতে পারার এটাও একটা কারণ হতে পারে। এজন্য প্রথম প্রথম প্রতিদিনই কিছু প্রবলেম পড়ার অভ্যাস করলে বেটার। পেইন খেলেও একটু ধৈর্য্য নিয়ে এই কাজগুলো করতে হবে)
+Since all problems are written in English, language difficulty can be a major reason. That’s why, in the beginning, you should build the habit of reading problem statements daily. It helps a lot. Even if it feels painful, be patient and keep doing it. 
+
+(এমন অনেকেই আছে যারা প্রবলেমটাই বুঝতে পারে না, এখন প্রবলেম বুঝতে না পারলে কি করতে হবে? → প্রবলেমগুলো যেহেতু ইংলিশে থাকে তাই না বুঝতে পারার এটাও একটা কারণ হতে পারে। এজন্য প্রথম প্রথম প্রতিদিনই কিছু প্রবলেম পড়ার অভ্যাস করলে বেটার। পেইন খেলেও একটু ধৈর্য্য নিয়ে এই কাজগুলো করতে হবে)
 
 3. Another common question is: Which programming language should I use for Competitive Programming?
    
-C++ is the best choice for speed and efficiency. In competitive programming, time and memory limits are extremely important and C++ handles these brilliantly. Especially the STL, it helps programmers write fast and efficient code. Many people prefer Python (I do too), but Python’s slow execution often becomes a big disadvantage during contests. (এবার আর একটি প্রশ্ন প্রায় অনেকেরই থাকে যে কোন প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে কম্পিটিটিভ প্রোগ্রামিং করা উচিত? → C++ কারণ এটা গতি এবং দক্ষতার জন্য বেস্ট। প্রতিযোগিতামূলক প্রোগ্রামিংয়ে, সময় এবং মেমোরির সীমাবদ্ধতা ভীষণ গুরুত্বপূর্ণ সেখানে C++ ব্যবহার বুদ্ধিমানের কাজ। বিশেষকরে C++ এর STL প্রোগ্রামারদের দ্রুত এবং আরও দক্ষতার সাথে কোড লিখতে সাহায্য করে। অনেকেই "Python" Prefer করে, আমি নিজেও করি কিন্তু পাইথনের ধীরগতি অনেক সময়ই কন্টেস্টের জন্য বেশ অসুবিধাজনক হয়ে দাঁড়ায়)
+C++ is the best choice for speed and efficiency. In competitive programming, time and memory limits are extremely important and C++ handles these brilliantly. Especially the STL, it helps programmers write fast and efficient code. Many people prefer Python, but Python’s slow execution often becomes a big disadvantage during contests. 
+
+(এবার আর একটি প্রশ্ন প্রায় অনেকেরই থাকে যে কোন প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে কম্পিটিটিভ প্রোগ্রামিং করা উচিত? → C++ কারণ এটা গতি এবং দক্ষতার জন্য বেস্ট। প্রতিযোগিতামূলক প্রোগ্রামিংয়ে, সময় এবং মেমোরির সীমাবদ্ধতা ভীষণ গুরুত্বপূর্ণ সেখানে C++ ব্যবহার বুদ্ধিমানের কাজ। বিশেষকরে C++ এর STL প্রোগ্রামারদের দ্রুত এবং আরও দক্ষতার সাথে কোড লিখতে সাহায্য করে। অনেকেই "Python" Prefer করে, আমি নিজেও করি কিন্তু পাইথনের ধীরগতি অনেক সময়ই কন্টেস্টের জন্য বেশ অসুবিধাজনক হয়ে দাঁড়ায়)
 
 4. Now the question is: Where should you practice and compete?
    
@@ -21,23 +33,33 @@ Beecrowd, HackerRank, Codeforces, Codechef, AtCoder, LeetCode — which online j
 
 Here is the sequence from beginner to advanced:
 
-4.1. Beecrowd (Former name URI): For complete beginners who cannot solve problems or cannot understand problem statements. Ideal for those who struggle to understand the question. (যারা একেবারেই প্রবলেম সলভিং পারেন না অথবা প্রবলেমটাই বুঝতে পারেন না, প্রবলেম বুঝতে পেইন লাগে তাহলে তাদের জন্য Beecrowd)
+4.1. Beecrowd (Former name URI): For complete beginners who cannot solve problems or cannot understand problem statements. Ideal for those who struggle to understand the question. 
 
-4.2. HackerRank: Best for practice! If you can already understand problem statements and want structured practice, this platform is perfect. (Practice এর জন্য HackerRank বেস্ট! যারা মোটামুটি একটু ভালো প্রবলেম সলভিং পারেন অথবা প্রবলেম বুঝতে অসুবিধা হয় না তাহলে এটা তাদের জন্য)
+(যারা একেবারেই প্রবলেম সলভিং পারেন না অথবা প্রবলেমটাই বুঝতে পারেন না, প্রবলেম বুঝতে পেইন লাগে তাহলে তাদের জন্য Beecrowd)
 
-4.3. Codeforces, Codechef, AtCoder: Best for contests. After building basic problem-solving skills, start competitive programming here. Even if your ratings become negative, don’t stop. (কনটেস্ট এর জন্য এই তিনটি ওয়েবসাইট বেস্ট। প্রবলেম সলভিং Practice করে তারপর Cp শুরু করে দেয়া উচিত এবং কনটেস্টে রেটিংস যতোই বাজে আসুক, তবুও কনটেস্টগুলো Continue করা উচিত) 
+4.2. HackerRank: Best for practice! If you can already understand problem statements and want structured practice, this platform is perfect. 
+
+(Practice এর জন্য HackerRank বেস্ট! যারা মোটামুটি একটু ভালো প্রবলেম সলভিং পারেন অথবা প্রবলেম বুঝতে অসুবিধা হয় না তাহলে এটা তাদের জন্য)
+
+4.3. Codeforces, Codechef, AtCoder: Best for contests. After building basic problem-solving skills, start competitive programming here. Even if your ratings become negative, don’t stop. 
+
+(কনটেস্ট এর জন্য এই তিনটি ওয়েবসাইট বেস্ট। প্রবলেম সলভিং Practice করে তারপর Cp শুরু করে দেয়া উচিত এবং কনটেস্টে রেটিংস যতোই বাজে আসুক, তবুও কনটেস্টগুলো Continue করা উচিত) 
 
 4.4. LeetCode: Practice, Contest, Interview Prep → All in One.
 
 5. Why is Competitive Programming important?
 
-It improves problem-solving ability, logical reasoning and out-of-the-box thinking. It also provides a huge advantage in coding interviews and job opportunities. Most importantly, solving challenging problems significantly boosts your confidence. (কম্পিটিটিভ প্রোগ্রামিং কেন গুরুত্বপূর্ণ ? → এটা সমস্যা সমাধানের দক্ষতা, যৌক্তিক যুক্তি এবং বাক্সের বাইরে চিন্তাভাবনা বৃদ্ধি করতে সহায়তা করে। জবের ক্ষেত্রেও কোডিং ইন্টারভিউয়ের জন্য বেশ বড় একটা অবদান রাখে। সাথে আত্মবিশ্বাস বাড়ায় কারণ চ্যালেঞ্জিং সমস্যাগুলো সফলভাবে সমাধানের মাধ্যমে আত্মবিশ্বাস অনেকটাই গ্রো করে)
+It improves problem-solving ability, logical reasoning and out-of-the-box thinking. It also provides a huge advantage in coding interviews and job opportunities. Most importantly, solving challenging problems significantly boosts your confidence. 
+
+(কম্পিটিটিভ প্রোগ্রামিং কেন গুরুত্বপূর্ণ ? → এটা সমস্যা সমাধানের দক্ষতা, যৌক্তিক যুক্তি এবং বাক্সের বাইরে চিন্তাভাবনা বৃদ্ধি করতে সহায়তা করে। জবের ক্ষেত্রেও কোডিং ইন্টারভিউয়ের জন্য বেশ বড় একটা অবদান রাখে। সাথে আত্মবিশ্বাস বাড়ায় কারণ চ্যালেঞ্জিং সমস্যাগুলো সফলভাবে সমাধানের মাধ্যমে আত্মবিশ্বাস অনেকটাই গ্রো করে)
 
 6. What about those who struggle with debugging?
 
 **Practice! Practice! Practice!** Even experienced programmers often struggle with debugging because they don’t practice enough. That’s why the only solution is more practice.
 
-**Simple Tips:** While debugging, I often read the code from bottom to top instead of top to bottom. It helps me identify mistakes quickly, but this may not work for everyone. (যারা Debugging করতেও হিমশিম খায়, তাদের কি করা উচিত ? → Practice! Practice! Practice! বেশি প্র্যাকটিস না করার ফলে অনেক অভিজ্ঞ প্রোগ্রামাররা ও ডিবাগিংয়ে দুর্বল থাকে, That's why Practice More!
+**Simple Tips:** While debugging, I often read the code from bottom to top instead of top to bottom. It helps me identify mistakes quickly, but this may not work for everyone. 
+
+(যারা Debugging করতেও হিমশিম খায়, তাদের কি করা উচিত ? → Practice! Practice! Practice! বেশি প্র্যাকটিস না করার ফলে অনেক অভিজ্ঞ প্রোগ্রামাররা ও ডিবাগিংয়ে দুর্বল থাকে, That's why Practice More!
 
 Simple Tips: আমি কোডের মধ্যে ভুল সিলেক্ট করার সময় কোড উপর থেকে নিচে, এভাবে না পড়ে উল্টোভাবে পড়ে Debugging করি, কিন্তু এটা সবার ক্ষেত্রে প্রযোজ্য নাও হতে পারে)
 
@@ -305,10 +327,10 @@ Language (IOI) →
 
 • But (Since 2017): C++, Java, Pascal.
 
-4. NCPC, IUPC, ICPC Dhaka Regional > ICPC Asia West > ICPC World Final - You can't participate in the same year: in more than 2 teams and "at more than 2 regionals. (for Asia)"
-5. Meta Hacker Cup: Open to everyone, consists of three rounds: Qualification, Elimination, and Final.
-6. ACM ICFP: Virtual coding contest, any programming language can be used.
-7. NGPC: For female students in high school, college and university. Rules similar to ICPC.
+3. NCPC, IUPC, ICPC Dhaka Regional > ICPC Asia West > ICPC World Final - You can't participate in the same year: in more than 2 teams and "at more than 2 regionals. (for Asia)"
+4. Meta Hacker Cup: Open to everyone, consists of three rounds: Qualification, Elimination, and Final.
+5. ACM ICFP: Virtual coding contest, any programming language can be used.
+6. NGPC: For female students in high school, college and university. Rules similar to ICPC.
 
 Note:
 Google Code Jam, Hash Code, Kick Start and TCO (Topcoder Open) contests are no longer held.
