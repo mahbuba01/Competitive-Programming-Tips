@@ -1,40 +1,48 @@
 # Competitive Programming (CP): Tips for Improvement 
 
-সবাইকেই কম্পিটিটিভ প্রোগ্রামিংয়ে প্রবলেম ফেইস করতে হয়, এমন কেউ নেই যে এই প্রবলেমটা ফেইস করে না।
+Everyone faces problems in Competitive Programming, there's literally no one who doesn’t struggle! (সবাইকেই কম্পিটিটিভ প্রোগ্রামিংয়ে প্রবলেম ফেইস করতে হয়, এমন কেউ নেই যে এই প্রবলেমটা ফেইস করে না)
 
-1. একটা প্রশ্ন সবার-ই থাকে যে কিভাবে Cp তে ভালো করবো ?
--> Practice! Practice! Practice!
-কম্পিটিটিভ প্রোগ্রামিংয়ে ভালো করার সর্বোত্তম উপায় নিয়মিত অনুশীলন করা। প্রতিদিন অন্তত ২-৩ টা সমস্যা সমাধান করার চেষ্টা করা উচিত। Current Ratings যদি "x" হয়, তাহলে {x+100 to x+300} Ratings এর প্রবলেমগুলো সলভ করা উচিত। রেগুলার কনটেস্ট গুলোতে অংশ নেয়া উচিত কিন্তু যদি রেটিংস বাজে আসে অথবা নেগেটিভ হয়ে যায় তাহলেও Continue করতে হবে এবং যে প্রবলেমগুলো একটুর জন্য সলভ হয় নি, সেগুলো আবারো Try করতে হবে। সলভ করতে গিয়ে ঘন্টার পর ঘন্টা অথবা দিনের পর দিন আটকে থাকলেও হতাশ হওয়ার কিছু নেই, এটা সবার ক্ষেত্রেই হয়। (আমি নিজেও একবার একটা Hard Problem ১ মাস সময় নিয়ে সলভ করেছিলাম)
+1. One common question everyone asks is: “How do I get better at CP?”
 
-2. এমন অনেকেই আছে যারা প্রবলেমটাই বুঝতে পারে না, এখন প্রবলেম বুঝতে না পারলে কি করতে হবে ? 
--> প্রবলেমগুলো যেহেতু ইংলিশে থাকে তাই না বুঝতে পারার এটাও একটা কারণ হতে পারে। এজন্য প্রথম প্রথম প্রতিদিনই কিছু প্রবলেম পড়ার অভ্যাস করলে বেটার। পেইন খেলেও একটু ধৈর্য্য নিয়ে এই কাজগুলো করতে হবে।
+**Practice! Practice! Practice!**
+The best way to improve in Competitive Programming is consistent practice. Try to solve at least 2–3 problems every day. If your current rating is “x”, then you should solve problems within the range **{x + 100 to x + 300}**. You must participate in regular contests. Even if your rating drops or becomes negative, you must continue. Revisit the problems you almost solved but couldn’t finish during the contest and try them again. Even if you get stuck for hours or days or even weeks, there’s nothing to be upset about; this happens to everyone. I once solved a hard problem after trying for **one whole month**! (একটা প্রশ্ন সবার-ই থাকে যে কিভাবে Cp তে ভালো করবো? → **Practice! Practice! Practice!** কম্পিটিটিভ প্রোগ্রামিংয়ে ভালো করার সর্বোত্তম উপায় নিয়মিত অনুশীলন করা। প্রতিদিন অন্তত ২-৩ টা সমস্যা সমাধান করার চেষ্টা করা উচিত। Current Ratings যদি "x" হয়, তাহলে {x+100 to x+300} Ratings এর প্রবলেমগুলো সলভ করা উচিত। রেগুলার কনটেস্ট গুলোতে অংশ নেয়া উচিত কিন্তু যদি রেটিংস বাজে আসে অথবা নেগেটিভ হয়ে যায় তাহলেও Continue করতে হবে এবং যে প্রবলেমগুলো একটুর জন্য সলভ হয় নি, সেগুলো আবারো Try করতে হবে। সলভ করতে গিয়ে ঘন্টার পর ঘন্টা অথবা দিনের পর দিন আটকে থাকলেও হতাশ হওয়ার কিছু নেই, এটা সবার ক্ষেত্রেই হয়। আমি নিজেও একবার একটা Hard Problem ১ মাস সময় নিয়ে সলভ করেছিলাম)
 
-3. এবার আর একটি প্রশ্ন প্রায় অনেকেরই থাকে যে কোন প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে কম্পিটিটিভ প্রোগ্রামিং করা উচিত ? 
--> অবশ্যই C++ কারণ এটা গতি এবং দক্ষতার জন্য বেস্ট। প্রতিযোগিতামূলক প্রোগ্রামিংয়ে সময় এবং মেমোরির সীমাবদ্ধতা ভীষণ গুরুত্বপূর্ণ সেখানে C++ ব্যবহার বুদ্ধিমানের কাজ। বিশেষকরে C++ এর STL প্রোগ্রামারদের দ্রুত এবং আরও দক্ষতার সাথে কোড লিখতে সাহায্য করে।
-অনেকেই "Python" Prefer করে, আমি নিজেও করি কিন্তু পাইথনের ধীরগতি অনেক সময়ই কন্টেস্টের জন্য বেশ অসুবিধাজনক হয়ে দাঁড়ায়।
+2. Many people struggle to understand the problem statement. So what should you do if you can’t understand the problem?
+   
+Since all problems are written in English, language difficulty can be a major reason. That’s why, in the beginning, you should build the habit of reading problem statements daily. It helps a lot. Even if it feels painful, be patient and keep doing it. (এমন অনেকেই আছে যারা প্রবলেমটাই বুঝতে পারে না, এখন প্রবলেম বুঝতে না পারলে কি করতে হবে? → প্রবলেমগুলো যেহেতু ইংলিশে থাকে তাই না বুঝতে পারার এটাও একটা কারণ হতে পারে। এজন্য প্রথম প্রথম প্রতিদিনই কিছু প্রবলেম পড়ার অভ্যাস করলে বেটার। পেইন খেলেও একটু ধৈর্য্য নিয়ে এই কাজগুলো করতে হবে)
 
-4. এবার আসি কোথায় Practice অথবা Contest করবো ? Beecrowd, HackerRank, Codeforces, Codechef, AtCoder, LeetCode: Beginner to Advance, কে কোন Online Judge ব্যবহার করে প্রবলেম সলভ এবং Cp করবেন ?
--> বিগিনার টু এডভান্সড, সিরিয়ালি বলা হলোঃ
+3. Another common question is: Which programming language should I use for Competitive Programming?
+   
+C++ is the best choice for speed and efficiency. In competitive programming, time and memory limits are extremely important and C++ handles these brilliantly. Especially the STL, it helps programmers write fast and efficient code. Many people prefer Python (I do too), but Python’s slow execution often becomes a big disadvantage during contests. (এবার আর একটি প্রশ্ন প্রায় অনেকেরই থাকে যে কোন প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে কম্পিটিটিভ প্রোগ্রামিং করা উচিত? → C++ কারণ এটা গতি এবং দক্ষতার জন্য বেস্ট। প্রতিযোগিতামূলক প্রোগ্রামিংয়ে, সময় এবং মেমোরির সীমাবদ্ধতা ভীষণ গুরুত্বপূর্ণ সেখানে C++ ব্যবহার বুদ্ধিমানের কাজ। বিশেষকরে C++ এর STL প্রোগ্রামারদের দ্রুত এবং আরও দক্ষতার সাথে কোড লিখতে সাহায্য করে। অনেকেই "Python" Prefer করে, আমি নিজেও করি কিন্তু পাইথনের ধীরগতি অনেক সময়ই কন্টেস্টের জন্য বেশ অসুবিধাজনক হয়ে দাঁড়ায়)
 
-4.1. Beecrowd (Former name URI): যারা একেবারেই প্রবলেম সলভিং পারেন না অথবা প্রবলেমটাই বুঝতে পারেন না, প্রবলেম বুঝতে পেইন লাগে তাহলে তাদের জন্য Beecrowd.
+4. Now the question is: Where should you practice and compete?
+   
+Beecrowd, HackerRank, Codeforces, Codechef, AtCoder, LeetCode — which online judges should beginners or advanced coders use?
 
-4.2. HackerRank: Practice এর জন্য HackerRank বেস্ট বেস্ট বেস্ট! যারা মোটামুটি একটু ভালো প্রবলেম সলভিং পারেন অথবা প্রবলেম বুঝতে অসুবিধা হয় না তাহলে এটা তাদের জন্য।
+Here is the sequence from beginner to advanced:
 
-4.3. Codeforces, Codechef, AtCoder: কনটেস্ট এর জন্য এই তিনটি ওয়েবসাইট বেস্ট। প্রবলেম সলভিং Practice করে তারপর Cp শুরু করে দেয়া উচিত এবং কনটেস্টে রেটিংস যতোই বাজে আসুক, তবুও কনটেস্টগুলো Continue করা উচিত। 
+4.1. Beecrowd (Former name URI): For complete beginners who cannot solve problems or cannot understand problem statements. Ideal for those who struggle to understand the question. (যারা একেবারেই প্রবলেম সলভিং পারেন না অথবা প্রবলেমটাই বুঝতে পারেন না, প্রবলেম বুঝতে পেইন লাগে তাহলে তাদের জন্য Beecrowd)
 
-4.4. LeetCode: Practice, Contest, Interview Prep -> সব একসাথে করতে পারবেন, All in One.
+4.2. HackerRank: Best for practice! If you can already understand problem statements and want structured practice, this platform is perfect. (Practice এর জন্য HackerRank বেস্ট! যারা মোটামুটি একটু ভালো প্রবলেম সলভিং পারেন অথবা প্রবলেম বুঝতে অসুবিধা হয় না তাহলে এটা তাদের জন্য)
 
-5. কম্পিটিটিভ প্রোগ্রামিং কেন গুরুত্বপূর্ণ ?
--> এটা সমস্যা সমাধানের দক্ষতা, যৌক্তিক যুক্তি এবং বাক্সের বাইরে চিন্তাভাবনা বৃদ্ধি করতে সহায়তা করে। জবের ক্ষেত্রেও কোডিং ইন্টারভিউয়ের জন্য বেশ বড় একটা অবদান রাখে। সাথে আত্মবিশ্বাস বাড়ায় কারণ চ্যালেঞ্জিং সমস্যাগুলো সফলভাবে সমাধানের মাধ্যমে আত্মবিশ্বাস অনেকটাই গ্রো করে।
+4.3. Codeforces, Codechef, AtCoder: Best for contests. After building basic problem-solving skills, start competitive programming here. Even if your ratings become negative, don’t stop. (কনটেস্ট এর জন্য এই তিনটি ওয়েবসাইট বেস্ট। প্রবলেম সলভিং Practice করে তারপর Cp শুরু করে দেয়া উচিত এবং কনটেস্টে রেটিংস যতোই বাজে আসুক, তবুও কনটেস্টগুলো Continue করা উচিত) 
 
-6. যারা Debugging করতেও হিমশিম খায়, তাদের কি করা উচিত ? 
--> Practice! Practice! Practice! 
-বেশি প্র্যাকটিস না করার ফলে অনেক অভিজ্ঞ প্রোগ্রামাররা ও ডিবাগিংয়ে দুর্বল থাকে, That's why Practice More!
+4.4. LeetCode: Practice, Contest, Interview Prep → All in One.
 
-Simple Tips: আমি কোডের মধ্যে ভুল সিলেক্ট করার সময় কোড উপর থেকে নিচে, এভাবে না পড়ে উল্টোভাবে পড়ে Debugging করি। (সবার ক্ষেত্রে প্রযোজ্য নাও হতে পারে)
+5. Why is Competitive Programming important?
+
+It improves problem-solving ability, logical reasoning and out-of-the-box thinking. It also provides a huge advantage in coding interviews and job opportunities. Most importantly, solving challenging problems significantly boosts your confidence. (কম্পিটিটিভ প্রোগ্রামিং কেন গুরুত্বপূর্ণ ? → এটা সমস্যা সমাধানের দক্ষতা, যৌক্তিক যুক্তি এবং বাক্সের বাইরে চিন্তাভাবনা বৃদ্ধি করতে সহায়তা করে। জবের ক্ষেত্রেও কোডিং ইন্টারভিউয়ের জন্য বেশ বড় একটা অবদান রাখে। সাথে আত্মবিশ্বাস বাড়ায় কারণ চ্যালেঞ্জিং সমস্যাগুলো সফলভাবে সমাধানের মাধ্যমে আত্মবিশ্বাস অনেকটাই গ্রো করে)
+
+6. What about those who struggle with debugging?
+
+**Practice! Practice! Practice!** Even experienced programmers often struggle with debugging because they don’t practice enough. That’s why the only solution is more practice.
+
+**Simple Tips:** While debugging, I often read the code from bottom to top instead of top to bottom. It helps me identify mistakes quickly, but this may not work for everyone. (যারা Debugging করতেও হিমশিম খায়, তাদের কি করা উচিত ? → Practice! Practice! Practice! বেশি প্র্যাকটিস না করার ফলে অনেক অভিজ্ঞ প্রোগ্রামাররা ও ডিবাগিংয়ে দুর্বল থাকে, That's why Practice More!
+
+Simple Tips: আমি কোডের মধ্যে ভুল সিলেক্ট করার সময় কোড উপর থেকে নিচে, এভাবে না পড়ে উল্টোভাবে পড়ে Debugging করি, কিন্তু এটা সবার ক্ষেত্রে প্রযোজ্য নাও হতে পারে)
 
 
-# DSA for Competitive Programming (CP):
+# DSA for Competitive Programming (CP)
 
 1. DSA Foundations: Time & Space Complexity Analysis, Recursion, Divide & Conquer.
     (Essential for understanding the efficiency & structure of algorithms)
@@ -97,7 +105,7 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
    - Random Number Generation  
    - Line Sweep
 
-# Understanding the error codes:
+# Understanding the error codes
 1. Compilation Error (CE): Your program didn't get compiled successfully.
 Common reasons like Syntax Error, Missing Imports, Using restricted functionalities.
 
@@ -124,7 +132,7 @@ Common reasons like Not returning 0 from main method, Not catching exceptions.
 
 6. Presentation Error (PE): Your program ran successfully & and the output's correct but the output format's incorrect. Normally due to "a missing space, newline, an extra space or newline."
 
-# Time Complexity:
+# Time Complexity
 
 In problem-solving, TLE (Time Limit Exceeded) means the program took too long to run within the allotted time. To understand when and where to use different types of algorithms, you need to understand the algorithm's time complexity. Time complexity is primarily about calculating how much time an algorithm takes to run, which helps compare multiple solutions to a problem.
 
@@ -285,21 +293,25 @@ Lesson:
 
 Instead of random debugging, do a proper dry-run, it helps catch 50% of bugs before you even run the code.
 
-# Programming Contests:
+# Programming Contests
+
 NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
 
 1. NHSPC: For high school and college students, Polytechnic first & second year.
 2. BdOI, APIO, IOI: For school and college students.
-Language (IOI)->
+Language (IOI) →
+
 • For the past sessions (till 2015): C, C++, Pascal.
-• But (Since 2017): C++, Java, Pascal. 
-3. NCPC, IUPC, ICPC Dhaka Regional > ICPC Asia West > ICPC World Final - You can't participate in the same year: in more than 2 teams and "at more than 2 regionals.(for Asia)"
-4. Meta Hacker Cup: Open to everyone, consists of three rounds: Qualification, Elimination, and Final.
-5. ACM ICFP: Virtual coding contest, any programming language can be used.
-6. NGPC: For female students in high school, college, and university. Rules similar to ICPC.
+
+• But (Since 2017): C++, Java, Pascal.
+
+4. NCPC, IUPC, ICPC Dhaka Regional > ICPC Asia West > ICPC World Final - You can't participate in the same year: in more than 2 teams and "at more than 2 regionals. (for Asia)"
+5. Meta Hacker Cup: Open to everyone, consists of three rounds: Qualification, Elimination, and Final.
+6. ACM ICFP: Virtual coding contest, any programming language can be used.
+7. NGPC: For female students in high school, college and university. Rules similar to ICPC.
 
 Note:
-Google Code Jam, Hash Code, Kick Start, and TCO (Topcoder Open) contests are no longer held.
+Google Code Jam, Hash Code, Kick Start and TCO (Topcoder Open) contests are no longer held.
 
 # Extra: Some interesting things in Programming
 
@@ -312,13 +324,16 @@ Google Code Jam, Hash Code, Kick Start, and TCO (Topcoder Open) contests are no 
 4. Sorting Algorithms Art: কিছু Sorting অ্যালগরিদম Like QuickSort, MergeSort কে একটি আর্টওয়ার্ক হিসেবে Visualize করা যেতে পারে। ভিজ্যুয়ালাইজেশনে অ্যালগরিদমের আচরণ কিভাবে Data Sort করে সেটা দেখা যাবে, Interesting না ব্যাপারটা ??
 
 5. Recursive Art: রিকার্সিভ ফাংশন ব্যবহার করেও Visual Art তৈরি করা যায়। Notable Example: Fractal Geometry(ফ্র্যাক্টাল জ্যামিতি); যেখানে লুপের মাধ্যমে একটি প্যাটার্ন বাড়াতে বাড়াতে জটিল স্ট্রাকচার তৈরি করা যায়।
+   
 ○ Base case: Simplest form of the problem that has a direct answer.
+
 ○ Recursive case: The step where you break the problem into a smaller, self-similar task.
 
 6. Polyglot Programming: যেখানে একটি কোড একাধিক প্রোগ্রামিং ল্যাংগুয়েজে Run করতে পারে। (the same code can work properly in different languages)
 
 Example: একটি কোড এমনভাবে লেখা হতে পারে যা Python, JS, Ruby বা অন্যান্য ভাষায় একইভাবে Run হতে পারে। Interesting না ব্যাপারটা??
-★ But: Polyglot কোড create করা খুব কঠিন কারণ প্রতিটি ভাষার Syntax & Structure Maintain করতে হয়; যা সব ভাষায় একইভাবে Match হয় না। তাই একাধিক ভাষায় কোডটি Run করানোর জন্য Carefully কোড লিখতে হয়।
+
+But: Polyglot কোড create করা খুব কঠিন কারণ প্রতিটি ভাষার Syntax & Structure Maintain করতে হয়; যা সব ভাষায় একইভাবে Match হয় না। তাই একাধিক ভাষায় কোডটি Run করানোর জন্য Carefully কোড লিখতে হয়।
 
 7. Easter Eggs in Code: অনেক সফটওয়্যার বা কোডে ডেভেলপাররা ইচ্ছা করে কিছু Secret/Funny ফিচার, মেসেজ রেখে দেয়। এগুলো আসলে Surprise Plan!!
 
@@ -334,8 +349,7 @@ Examples:
 
 8. Genetic Algorithms: এই অ্যালগরিদম "Evolution(প্রকৃতির বিবর্তন)" ধারণা থেকে অনুপ্রাণিত, যা "Survival of the Fittest" ধারণা ব্যবহার করে। যেখানে সমস্যা সমাধানের জন্য বিভিন্ন সম্ভাব্য-সমাধান তৈরি করা হয় এবং বেস্ট টা সিলেক্ট করা হয়। আর এভাবেই এই অ্যালগরিদম পর্যায়ক্রমে Better Solution খুঁজে বের করতে থাকে।
 
-9. Code Golf: কোডিং দক্ষতা এবং সৃজনশীলতার পরীক্ষা (প্রোগ্রামিং চ্যালেঞ্জ); যেখানে একটি নির্দিষ্ট কাজ করতে, সবচেয়ে কম কোড ব্যবহার করে কাজটি করার কৌশল খুঁজে বের করতে হয়।
-★ কোডের দৈর্ঘ্য যত কম হবে, তত বেশি স্কোর পাওয়া যায়।
+9. Code Golf: কোডিং দক্ষতা এবং সৃজনশীলতার পরীক্ষা (প্রোগ্রামিং চ্যালেঞ্জ); যেখানে একটি নির্দিষ্ট কাজ করতে, সবচেয়ে কম কোড ব্যবহার করে কাজটি করার কৌশল খুঁজে বের করতে হয়। **কোডের দৈর্ঘ্য যত কম হবে, তত বেশি স্কোর পাওয়া যায়।**
 
 10. Esoteric Programming Languages: যা মজার উদ্দেশ্যে তৈরি করা হয়, কাজের জন্য নয়। এসব ভাষার কোড সাধারণত জটিল, অস্বাভাবিক এবং অদ্ভুতভাবে ডিজাইন করা হয়। এগুলো চ্যালেঞ্জ গ্রহণকারী ব্যক্তিদের জন্য তৈরি করা হয়।
 
@@ -347,9 +361,7 @@ Examples:
 
 10.3. Piet: প্রোগ্রামিং ভাষা; যা ছবির মতো কোড লেখে, যেখানে প্রোগ্রামটি দৃশ্যমানভাবে একধরনের ছবির আকারে থাকে।
 
-11. Concurrency & Parallelism: প্রোগ্রামিংয়ে কনকারেন্সি এবং প্যারালেলিজম ব্যবহার করলে একসাথে অনেক কাজ করা যায়, যা সিস্টেমের কার্যক্ষমতা অনেক বাড়িয়ে দেয়।
-★ Concurrency's about "dealing with" lots of things at once.
-Parallelism's about "doing" lots of things at once.
+11. Concurrency & Parallelism: প্রোগ্রামিংয়ে কনকারেন্সি এবং প্যারালেলিজম ব্যবহার করলে একসাথে অনেক কাজ করা যায়, যা সিস্টেমের কার্যক্ষমতা অনেক বাড়িয়ে দেয়। (Concurrency's about "dealing with" lots of things at once. Parallelism's about "doing" lots of things at once)
 
 
 # Dynamic Programming: Bitmask DP 
