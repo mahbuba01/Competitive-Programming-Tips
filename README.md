@@ -1,4 +1,4 @@
-# Competitive Programming (CP): Tips for Improvement in Bangla 
+# Competitive Programming (CP): Tips for Improvement 
 
 সবাইকেই কম্পিটিটিভ প্রোগ্রামিংয়ে প্রবলেম ফেইস করতে হয়, এমন কেউ নেই যে এই প্রবলেমটা ফেইস করে না।
 
@@ -221,10 +221,7 @@ Many people sort the input immediately but often the problem’s logic depends o
 
 Problems caused by sorting too early:
 
-• Pairing mismatch
-• Loss of original index
-• Order-dependent cases fail
-• Hidden constraints break
+Pairing mismatch, Loss of original index, Order-dependent cases fail, Hidden constraints break
 
 Rule of Thumb:
 
@@ -239,8 +236,11 @@ But the problem starts when you use them without understanding their time comple
 Common Examples:
 
 • map → many think it’s O(1), but actually it’s O(log n)
+
 • vector.erase() → shifts elements, so O(n)
+
 • string.find() → slower for large strings
+
 • sort() → O(n log n), but using it inside a loop is a disaster!
 
 If you don’t know how long an operation takes, your solution might become too slow.
@@ -252,11 +252,7 @@ In Competitive Programming, code often works perfectly with sample input but fai
 
 Testing scenarios like:
 
-• empty input
-• minimum values
-• maximum values
-• negative numbers
-• repeated values
+empty input, minimum values, maximum values, negative numbers, repeated values
 
 These help catch many bugs before submission.
 
@@ -276,8 +272,11 @@ A dry-run means manually simulating your code’s logic step-by-step.
 Why Dry-Run Matters?
 
 • Off-by-one errors become very easy to catch.
+
 • You can verify whether the loop conditions are correct.
+
 • Edge cases become clear before writing the full code.
+
 • You can match the expected output in advance.
 
 A dry-run is the fastest and simplest debugging method.
@@ -302,7 +301,7 @@ Language (IOI)->
 Note:
 Google Code Jam, Hash Code, Kick Start, and TCO (Topcoder Open) contests are no longer held.
 
-# Extra: প্রোগ্রামিং এর কিছু Interesting জিনিস
+# Extra: Some interesting things in Programming
 
 1. Turing Completeness: যেখানে একটি প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে সব কিছু Automate করা যায়। মানে একটি ল্যাংগুয়েজ দিয়ে সব ধরনের সমস্যা সমাধান করা যায় (solve any complex computation problem if provided with enough memory & time)
 
