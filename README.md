@@ -315,6 +315,80 @@ Lesson:
 
 Instead of random debugging, do a proper dry-run, it helps catch 50% of bugs before you even run the code.
 
+7. Passing Vector by Value
+
+int get_size(vector<int> a) { return a.size(); }   // O(n), copy
+
+int get_size(const vector<int>& a) { return a.size(); } // O(1), no copy
+
+Lesson:
+
+Passing a large vector by value creates an unnecessary copy. Use const reference whenever modification is not needed.
+
+8. Using multiset.count() for Existence Check
+
+se.count(1);  // O(log n + k)
+
+se.find(1) != se.end(); // O(log n)
+
+Lesson:
+
+If you only need to check whether an element exists, use find() instead of count().
+
+9. Using multiset.erase(value)
+
+se.erase(2);  // Erases ALL occurrences of 2
+
+se.erase(se.find(2));  // Erases only one occurrence
+
+Important:
+
+• se.find(2) must exist, otherwise undefined behavior
+
+Safer version:
+
+auto it = se.find(2);
+
+if (it != se.end()) se.erase(it);
+
+Lesson:
+
+Be careful when removing elements from a multiset. erase(value) removes all matching elements.
+
+10. Using STL lower_bound() on a Set
+
+lower_bound(se.begin(), se.end(), i); // O(n)
+
+se.lower_bound(i); // O(log n)
+
+Reason:
+
+• STL lower_bound works efficiently with random-access iterators
+
+• set uses a balanced tree
+
+• Therefore the generic STL version becomes O(n)
+
+Lesson:
+
+Always use the container's member function for sets and multisets.
+
+11. map vs unordered_map
+
+map<int, int> mp; // O(log n), ordered
+
+unordered_map<int, int> ump; // Average O(1), Worst O(n)
+
+Important:
+
+• unordered_map can suffer from collision attacks
+
+• In contests like Codeforces, prefer map or use a custom hash
+
+Lesson:
+
+Do not assume unordered_map is always faster.
+
 # Programming Contests
 
 NHSPC, BdOI, IOI, APIO, IUPC, NCPC, ACM ICPC, Meta Hacker Cup, ACM ICFP, NGPC.
