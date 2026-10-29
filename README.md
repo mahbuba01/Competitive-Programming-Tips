@@ -78,16 +78,16 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
 
 # Become good at solving math problems in CP (Math for CP)
 
-1. Fundamentals:  
+1. Fundamentals  
    - Binary Exponentiation  
    - Euclidean Algorithm (GCD, LCM)  
 
-2. Prime Numbers:
+2. Prime Numbers
    - Sieve of Eratosthenes  
    - Prime Factorization  
    - Miller-Rabin Primality Test  
 
-3. Number Theory:  
+3. Number Theory  
    - Euler's Totient Function  
    - Fermat's Little Theorem  
    - Wilson's Theorem  
@@ -95,21 +95,21 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
    - Number of Divisors / Sum of Divisors  
    - Mobius Function  
 
-4. Modular Arithmetic: 
+4. Modular Arithmetic 
    - Chinese Remainder Theorem  
    - Exponentiation by Squaring  
 
-5. Linear Algebra: 
+5. Linear Algebra 
    - Matrix Multiplication and Inversion  
    - Vectors, Eigenvalues, and Eigenvectors  
 
-6. Geometry:
+6. Geometry
    - Basics: Points, Lines, Circles, Distance, Angles  
    - Computational Geometry: Convex Hull, Line Intersection  
    - Coordinate Geometry: Point-Line Relationship, Polygon Area, Point in Polygon
    - Misc. Geometry: Orientation, Circle Intersection 
 
-7. Combinatorics:  
+7. Combinatorics  
    - Permutations, Combinations  
    - Binomial Theorem & Coefficients
    - Pigeonhole Principle (used in distribution and arrangement problems)
@@ -117,11 +117,11 @@ Simple Tips: আমি কোডের মধ্যে ভুল সিলেক
    - Inclusion-Exclusion Principle  
    - Lucas' Theorem (rare but useful)  
 
-8. Probability:  
+8. Probability  
    - Basics  
    - Expected Values (1D & 2D)  
 
-9. Misc/Miscellaneous:  
+9. Misc/Miscellaneous  
    - Fast Fourier Transform (FFT)  
    - Polynomial Multiplication  
    - Random Number Generation  
@@ -197,7 +197,7 @@ The runtime grows factorial with the input size n, typically seen in algorithms 
 This complexity occurs in algorithms where operations are performed up to the square root of the input size n, it's less common but can appear in certain mathematical algorithms or optimizations.
 
 
-How to calculate algorithms time complexity:
+#### How to calculate algorithms time complexity
 
 1. Identify the basic operations performed by the algorithm.
 
@@ -210,7 +210,7 @@ How to calculate algorithms time complexity:
 5. Use "Big O Notation" to describe the asymptotic upper bound of the algorithm's time complexity.
 
 # Newbie to Candidate Master (CM): Ratings [0-1900]
-Topics:
+Topics
 1. Brute Force, Searching.
 2. Sorting (Language Library Function)
 3. Strings
